@@ -1,0 +1,339 @@
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    animation-name: headers;
+    animation-duration: 4s;
+    width: 1309px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    
+    
+}
+header{
+    
+    position: fixed;
+    top:0;
+}
+.wording2{
+    position: fixed;
+}
+
+@keyframes headers{
+     0%{
+        transform: translateY(-100%);
+     }
+}
+.home1,.home2,.home3,.home4,.home5,i{
+    margin-left: 10px;
+    margin-top: 25px;
+    
+    
+}
+.yoga{
+    margin-left: 40px;
+    background-image: linear-gradient(43deg,#4158d0 10%,#c850c0 46%,#ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.home1{
+    margin-left: 870px;
+}
+.yogas{
+    margin-left: 40px;
+    font-size: 30px;
+    
+    transform: rotate(-90deg);
+    background-image: linear-gradient(180deg,#4158d0 0%,#c850c0 46%,#ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    bottom: 230px;
+    position: relative;
+    
+    
+    align-items: center;
+    animation-name: yogas;
+    animation-duration: 3s;
+    
+    
+}
+
+.class{
+    margin-left: 40px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 25px;
+    bottom: 250px;
+    align-items: center;
+    animation-name: class;
+    animation-duration: 3s;
+    
+  
+    
+}
+body{
+    background-color: aquamarine;
+    background-size: cover;
+}
+.vertical{
+    border: 2px solid black ;
+    width: 0.1px;
+    height:320px;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 80px;
+    animation-name: vertical;
+    animation-duration: 3s;
+    
+   
+}
+
+.word{
+    display: flex;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.flex{
+    display: flex;
+}
+.word3{
+    margin-top: 5px;
+    font-size: 30px;
+}
+.word1{
+    font-size: 20px;
+    font-style:oblique ;
+}
+.word2{
+    animation-name: wording;
+    animation-duration: 3s;
+    margin-left: 10px;
+}
+@keyframes vertical{
+    from{
+        transform: translateX(-140px);
+    }
+    to{
+        transform: translateX(1px);
+    }
+}
+@keyframes yogas {
+    from{
+        transform: translateX(-160px);
+        
+        
+    }
+    to{
+        transform: translateX(0.5px);
+        transform: rotate(-90deg);
+        
+        
+    }
+}
+@keyframes class {
+    from{
+        transform: translateX(-160px);
+    }
+    to{
+        transform: translateX(0.5px);
+        transform: rotate(-90deg);
+        
+    }
+}
+@keyframes wording{
+    from{
+        transform: translateX(-550px);
+    }
+    to{
+        transform: translateX(1px);
+    }
+}
+.photo{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    mix-blend-mode: multiply;
+    margin-left: 250px;
+    margin-top: 70px;
+    animation-name: photo;
+    animation-duration: 3s;
+    
+    
+}
+@keyframes photo {
+    0%{
+        transform: translateX(550px);
+    }
+   
+    100%{
+        transform: translateX(1px);
+    }
+}
+
+
+.member{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+.p1{
+    margin-left: 70px;
+    border: 5px solid black;
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: hidden;
+    border-left: hidden;
+
+}
+.p2{
+    margin-left: 40px;
+    border: 5px solid black;
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: hidden;
+    border-left: hidden;
+    
+    
+   
+}
+@keyframes para1{
+    from{
+        transform: translateX(-180px);
+    }
+    to{
+        transform: translate(10px);
+    }
+}
+.p2:hover{
+    animation-name: p2;
+    animation-duration: 0.1s;
+    cursor: pointer;
+    animation-fill-mode: forwards;
+}
+.p1:hover{
+    animation-name: p2;
+    animation-duration: 0.1s;
+    cursor: pointer;
+    animation-fill-mode: forwards;
+}
+.home1:hover,.home2:hover,.home3:hover,.home4:hover,.home5:hover,.ri-menu-line:hover,.ri-close-large-line:hover{
+    animation-name: p2;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    background-image: linear-gradient(43deg,#4158d0 10%,#c850c0 46%,#ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+
+}
+@keyframes p2{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-5px);
+    }
+}
+
+.f1{
+    font-size: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    animation-name: footer;
+    animation-duration: 3s;
+    position: relative;
+    right: 20px;
+    width: 1320px;
+    height: 250px;
+    bottom: 90px;
+
+}
+@keyframes footer{
+    0%{
+        transform: translateY(100px);
+
+    }
+    
+    100%{
+        transform: translateY(-2px);
+    }
+}
+.icons{
+    display: flex;
+    margin-left: 550px;
+}
+.ri-whatsapp-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: green;
+    animation-fill-mode: forwards;
+}
+.ri-facebook-circle-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: blue;
+    animation-fill-mode: forwards;
+}
+.ri-twitter-x-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: black;
+    animation-fill-mode: forwards;
+}
+.ri-linkedin-box-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: blue;
+    animation-fill-mode: forwards;
+}
+.ri-instagram-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: rgba(255, 0, 0, 0.472);
+    animation-fill-mode: forwards;
+}
+.ri-youtube-fill:hover{
+    cursor: pointer;
+    animation-name: p2;
+    animation-duration: 1s;
+    color: red;
+    animation-fill-mode: forwards;
+}
+em{
+    transform: rotate(-90deg);
+    margin-left: 100px;
+    display: block;
+    position: relative;
+    right: 100px;
+    top: 130px;
+}
+
+.ri-phone-fill{
+    position: relative;
+    right:-35px;
+    top:200px;
+  
+}
+.ri-phone-fill:hover{
+   
+    cursor: pointer;
+}
+
+
+
+
